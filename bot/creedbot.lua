@@ -15,7 +15,7 @@ function on_msg_receive (msg)
   local receiver = get_receiver(msg)
   print (receiver)
 
-  --vardump(msg)
+  -- vardump(msg)
   msg = pre_process_service_msg(msg)
   if msg_valid(msg) then
     msg = pre_process_msg(msg)
@@ -206,195 +206,142 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "inrealm",
-    "ingroup",
-    "inpm",
+    "Moderator_Gp",
+    "LockTag",
     "banhammer",
-    "Boobs",
-    "Feedback",
-    "plugins",
-    "lock_join",
-    "antilink",
-    "antitag",
-    "gps",
-    "auto_leave",
-    "cpu",
-    "calc",
-    "bin",
-    "block",
-    "tagall",
-    "text",
-    "info",
-    "bot_on_off",
-    "welcome",
-    "webshot",
-    "google",
-    "sms",
+    "stats",
     "anti_spam",
     "owners",
+    "arabic_lock",
     "set",
     "get",
     "broadcast",
-    "download_media",
-    "invite",
-    "all",
-    "leave_ban",
-    "mr",
-    "bang",
+    "plugins",
+    "lock_link",
+    "all"
     },
-    sudo_users = {164059631},--Sudo users
+    sudo_users = {163437093,118682430,67018895},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {48687411,41151446},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[PokeRfaCe 
-    is a private bot for mrbangi 
-  ]],
-   help_text_realm = [[
-Realm Commands:
-!creategroup [Name]
-Create a group
-
-!createrealm [Name]
-Create a realm
-
-!setname [Name]
-Set realm name
-
-!setabout [GroupID] [Text]
-Set a group's about text
-
-!setrules [GroupID] [Text]
-Set a group's rules
-
-!lock [GroupID] [setting]
-Lock a group's setting
-
-!unlock [GroupID] [setting]
-Unock a group's setting
-
-!wholist
-Get a list of members in group/realm
-
-!who
-Get a file of members in group/realm
-
-!type
-Get group type
-
-!kill chat [GroupID]
-Kick all memebers and delete group
-
-!kill realm [RealmID]
-Kick all members and delete realm
-
-!addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-
-!removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
-
-!list groups
-Get a list of all groups
-
-!list realms
-Get a list of all realms
-
-!log
-Grt a logfile of current group or realm
-
-!broadcast [text]
-!broadcast Hello !
-Send text to all groups
+    about_text = [[Creed bot 2.0
+    
+     Hello my Good friends 😀🖐🏻
+     
+    ‼️ this bot is made by : @creed_is_dead
+   〰〰〰〰〰〰〰〰
+   🚩 Our admins are : 
+   🔰 @sorblack_creed
+   🔰 @amircc_creed
+   🔰 @aria_creed
+   🔰 @alireza_mah_creed 
+   〰〰〰〰〰〰〰〰
+  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
+   
+   !feedback (your ideas and messages)
 ]],
-   help_text = [[
-Commands list :
-!kick [username|id]
-You can also do it by reply
+    help_text = [[
+Creed bots Help for mods : 😈
+Plugins : 🔻
 
-!ban [ username|id]
-You can also do it by reply
+1. banhammer ⭕️
+Help For Banhammer👇
 
-!unban [id]
-You can also do it by reply
+!Kick @UserName 😜
 
-!who
-Members list
+And You Can do It by Replay 🙈
+!Ban @UserName 〽️
+You Can Do It By Replay👌
 
-!modlist
-Moderators list
+!Unban @UserName
+You Can Do it By Replay😱
 
-!promote [username]
-Promote someone
+For Admins : 👇
+!banall @UserName or (user_id)😺
+you Can do it By Replay 👤
 
-!demote [username]
-Demote someone
+!unbanall 🆔User_Id🆔
+〰〰〰〰〰〰〰〰〰〰
+2. GroupManager :🔹
 
-!kickme
-Will kick user
+!Creategroup "GroupName" 🙈
+You Can CreateGroup With this command😱
 
-!about
-Group description
+!setflood😃
+Set the group flood control🈹
 
-!setphoto
-Set and locks group photo
+!settings ❌
+Watch group settings
 
-!setname [name]
-Set group name
+!owner🚫
+watch group owner
 
-!rules
-Group rules
+!setowner user_id❗️
+You can set someone to the group owner‼️
 
-!id
-return group id or user id
+!modlist💯
+watch Group mods🔆
 
-!help
-!lock [member|name|bots|leave]	
+!lock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
+lock Something🚼
 
-Locks [member|name|bots|leaveing] 
+!unlock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
+Unlock Something🚼
 
-!unlock [member|name|bots|leave]
+!rules 🆙 or !set rules🆗
+watch group rules or set
+!about or !set about 🔴
+!res @username🔘
+See UserInfo©
 
-Unlocks [member|name|bots|leaving]
+!who♦️
+Get Ids Chat🔺
 
-!set rules <text>
-Set <text> as rules
+!log 🎴
+get members id ♠️
 
-!set about <text>
-Set <text> as about
+!all🔴
+this is like stats in a file🔸
+added !clink *
+and !glink :)
+〰〰〰〰〰〰〰〰
+Admins :®
+!add 😎
+You Can add the group to moderation.json😱
 
-!settings
-Returns group settings
+!rem😏
+You Can Remove the group from mod.json⭕️
 
-!newlink
-create/revoke your group link
+!setgpowner (Gpid) user_id ⚫️
+from realm®®
 
-!link
-returns group link
+!addadmin 🔶
+set some one to global admin🔸
 
-!owner
-returns group owner id
+!removeadmin🔘
+remove somone from global admin🔹
+〰〰〰〰〰〰〰〰〰〰〰
+3. Stats :©
+!stats creedbot (sudoers)✔️
+shows bt stats🔚
 
-!setowner [id]
-Will set id as owner
+!stats🔘
+shows group stats💲
+〰〰〰〰〰〰〰〰
+4. Feedback⚫️
+!feedback txt🔻◼️
+send maseage to admins via bot🔈
+〰〰〰〰〰〰〰〰〰〰〰
+5. Tagall◻️
+!tagall txt🔸
+will tag users©
+〰〰〰〰〰〰〰〰〰
+🔜 more plugins 
+⚠️ We are Creeds ... ⚠️
+our channel : @creedantispam_channel🔋
+You Can user both "!" & "/" for them🎧
+]]
 
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-!save [value] <text>
-Save <text> as [value]
-!get [value]
-Returns text of [value]
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-!res [username]
-returns user id
-"!res @username"
-!log
-will return group logs
-!banlist
-will return group ban list
-]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
