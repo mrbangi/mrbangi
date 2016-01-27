@@ -234,7 +234,6 @@ function create_config( )
    !feedback (your ideas and messages)
 ]],
     help_text = [[
-Creed bots Help for mods : 
 Plugins : 
 1. banhammer 
 Help For Banhammer
