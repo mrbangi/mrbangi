@@ -220,110 +220,113 @@ function create_config( )
     "lock_link",
     "all"
     },
-    sudo_users = {164059631},--Sudo users
+    sudo_users = {163437093,118682430,67018895},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {48687411,41151446},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[pokerface a private bot for manage your group
-    made by : mrbangi 
-    feedback for our team with !feedback your idea
-    channel: @bangi_channel
+    about_text = [[pokerface
+     Hello my Good friends 
+     
+    ‼️ this bot is made by : mrbangi_org
+   〰〰〰〰〰〰〰〰
+  a private bot for mrbangi
+   〰〰〰〰〰〰〰〰 You can send your Ideas and messages to Us By sending them into bots account by this command :
+   !feedback (your ideas and messages)
+]],
     help_text = [[
-    
-!kick [username|id]
-You can also do it by reply
+Creed bots Help for mods : 
+Plugins : 
+1. banhammer 
+Help For Banhammer
 
-!ban [ username|id]
-You can also do it by reply
+!Kick @UserName 
 
-!unban [id]
-You can also do it by reply
+And You Can do It by Replay 
+!Ban @UserName 
+You Can Do It By Replay
 
-!who
-Members list
+!Unban @UserName
+You Can Do it By Replay
 
-!modlist
-Moderators list
+For Admins : 
+!banall @UserName or (user_id)
+you Can do it By Replay
 
-!promote [username]
-Promote someone
+!unbanall 🆔User_Id
+〰〰〰〰〰〰〰〰〰〰
+2. GroupManager :
 
-!demote [username]
-Demote someone
+!Creategroup "GroupName" 
+You Can CreateGroup With this command
 
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-return group id or user id
-!help
-
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
-
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-
-!set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
+!setflood
+Set the group flood control🈹
 
 !settings
-Returns group settings
-
-!newlink
-create/revoke your group link
-
-!link
-returns group link
+Watch group settings
 
 !owner
-returns group owner id
+watch group owner
 
-!setowner [id]
-Will set id as owner
+!setowner user_id
+You can set someone to the group owner‼️
 
-!setflood [value]
-Set [value] as flood sensitivity
+!modlist💯
+watch Group mods
 
-!stats
-Simple message statistics
+!lock (bots-member-flood-photo-name-Arabic-english-tag-join-link)
+lock Something
+!unlock (bots-member-flood-photo-name-Arabic-english-tag-join-link)
+Unlock Something
 
-!save [value] <text>
-Save <text> as [value]
+!rules 🆙 or !set rules
+watch group rules or set
+!about or !set about 
+!res @username
+See UserInfo
 
-!get [value]
-Returns text of [value]
+!who
+Get Ids Chat
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+!log 
+get members id 
 
-!res [username]
-returns user id
-"!res @username"
+!all
+this is like stats in a file
+added !clink 
+and !glink :)
+〰〰〰〰〰〰〰〰
+Admins :
+!add 
+You Can add the group to moderation.json
 
-!log
-will return group logs
+!rem
+You Can Remove the group from mod.json
 
-!banlist
-will return group ban list
-**U can use both "/" and "!"
-channel: @bangi_channel
-feedback your idea !feedback your idea
+!setgpowner (Gpid) user_id 
+from realm
+
+!addadmin 
+set some one to global admin
+
+!removeadmin
+remove somone from global admin
+〰〰〰〰〰〰〰〰〰〰〰
+3. Stats :©
+!stats (sudoers)✔️
+!stats🔘
+shows group stats
+〰〰〰〰〰〰〰〰
+4. Feedback
+!feedback txt
+send maseage to admins via bot
+5. Tagall
+!tagall txt
+will tag users
+our channel : @bangi_channel
+You Can user both "!" & "/" for them
+]]
+
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
