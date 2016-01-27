@@ -220,9 +220,9 @@ function create_config( )
     "lock_link",
     "all"
     },
-    sudo_users = {163437093,118682430,67018895},--Sudo users
+    sudo_users = {164059631},--Sudo users
     disabled_channels = {},
-    realm = {48687411,41151446},--Realms Id
+    realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[pokerface
      Hello my Good friends 
