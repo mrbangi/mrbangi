@@ -220,110 +220,126 @@ function create_config( )
     "lock_link",
     "all"
     },
-    sudo_users = {164059631},--Sudo users
+    sudo_users = {120518968,132472033},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[pokerface
-     Hello my Good friends 
+    about_text = [[Creed bot 2.0
+    
+     Hello my Good friends 😀🖐🏻
      
-    ‼️ this bot is made by : mrbangi_org
+    ‼️ this bot is made by : @creed_is_dead
    〰〰〰〰〰〰〰〰
-  a private bot for mrbangi
-   〰〰〰〰〰〰〰〰 You can send your Ideas and messages to Us By sending them into bots account by this command :
+   🚩 Our admins are : 
+   🔰 @sorblack_creed
+   🔰 @amircc_creed
+   🔰 @aria_creed
+   🔰 @alireza_mah_creed 
+   〰〰〰〰〰〰〰〰
+  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
+   
    !feedback (your ideas and messages)
 ]],
     help_text = [[
-Plugins : 
-1. banhammer 
-Help For Banhammer
+Creed bots Help for mods : 😈
+Plugins : 🔻
 
-!Kick @UserName 
+1. banhammer ⭕️
+Help For Banhammer👇
 
-And You Can do It by Replay 
-!Ban @UserName 
-You Can Do It By Replay
+!Kick @UserName 😜
+
+And You Can do It by Replay 🙈
+!Ban @UserName 〽️
+You Can Do It By Replay👌
 
 !Unban @UserName
-You Can Do it By Replay
+You Can Do it By Replay😱
 
-For Admins : 
-!banall @UserName or (user_id)
-you Can do it By Replay
+For Admins : 👇
+!banall @UserName or (user_id)😺
+you Can do it By Replay 👤
 
-!unbanall 🆔User_Id
+!unbanall 🆔User_Id🆔
 〰〰〰〰〰〰〰〰〰〰
-2. GroupManager :
+2. GroupManager :🔹
 
-!Creategroup "GroupName" 
-You Can CreateGroup With this command
+!Creategroup "GroupName" 🙈
+You Can CreateGroup With this command😱
 
-!setflood
+!setflood😃
 Set the group flood control🈹
 
-!settings
+!settings ❌
 Watch group settings
 
-!owner
+!owner🚫
 watch group owner
 
-!setowner user_id
+!setowner user_id❗️
 You can set someone to the group owner‼️
 
 !modlist💯
-watch Group mods
+watch Group mods🔆
 
-!lock (bots-member-flood-photo-name-Arabic-english-tag-join-link)
-lock Something
-!unlock (bots-member-flood-photo-name-Arabic-english-tag-join-link)
-Unlock Something
+!lock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
+lock Something🚼
 
-!rules 🆙 or !set rules
+!unlock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
+Unlock Something🚼
+
+!rules 🆙 or !set rules🆗
 watch group rules or set
-!about or !set about 
-!res @username
-See UserInfo
+!about or !set about 🔴
+!res @username🔘
+See UserInfo©
 
-!who
-Get Ids Chat
+!who♦️
+Get Ids Chat🔺
 
-!log 
-get members id 
+!log 🎴
+get members id ♠️
 
-!all
-this is like stats in a file
-added !clink 
+!all🔴
+this is like stats in a file🔸
+added !clink *
 and !glink :)
 〰〰〰〰〰〰〰〰
-Admins :
-!add 
-You Can add the group to moderation.json
+Admins :®
+!add 😎
+You Can add the group to moderation.json😱
 
-!rem
-You Can Remove the group from mod.json
+!rem😏
+You Can Remove the group from mod.json⭕️
 
-!setgpowner (Gpid) user_id 
-from realm
+!setgpowner (Gpid) user_id ⚫️
+from realm®®
 
-!addadmin 
-set some one to global admin
+!addadmin 🔶
+set some one to global admin🔸
 
-!removeadmin
-remove somone from global admin
+!removeadmin🔘
+remove somone from global admin🔹
 〰〰〰〰〰〰〰〰〰〰〰
 3. Stats :©
-!stats (sudoers)✔️
+!stats creedbot (sudoers)✔️
+shows bt stats🔚
+
 !stats🔘
-shows group stats
+shows group stats💲
 〰〰〰〰〰〰〰〰
-4. Feedback
-!feedback txt
-send maseage to admins via bot
-5. Tagall
-!tagall txt
-will tag users
-our channel : @bangi_channel
-You Can user both "!" & "/" for them
+4. Feedback⚫️
+!feedback txt🔻◼️
+send maseage to admins via bot🔈
+〰〰〰〰〰〰〰〰〰〰〰
+5. Tagall◻️
+!tagall txt🔸
+will tag users©
+〰〰〰〰〰〰〰〰〰
+🔜 more plugins 
+⚠️ We are Creeds ... ⚠️
+our channel : @creedantispam_channel🔋
+You Can user both "!" & "/" for them🎧
 ]]
 
   }
